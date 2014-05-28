@@ -1,0 +1,43 @@
+body 
+	{
+		background-color: gray
+
+	}
+
+.accent
+	{
+		font-size: 28px;
+		
+	}
+
+#fullPage
+	{
+		margin: 0 auto;
+	}
+
+#topTitle
+	{
+		text-align: center;
+		height: 80px;
+		border: 5px, solid #000000;
+		font-size: 24px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+section
+	{
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+img {
+		margin-left: 200px;
+
+}
+
+hr {
+	color:white; 
+	height:3px; 
+}
