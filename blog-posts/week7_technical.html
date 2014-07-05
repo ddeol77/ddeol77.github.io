@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dev's Week 7 Technical Blog</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/week6_technical.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	</head>
+	
+<body>
+	<div id="fullPage">
+		<div id="topTitle">Dev's week 7 Technical Blog Site</div>
+		<hr>
+		<section id="topSection">
+	<h1><span class="accent">SQL</span> databases vs <span class="accent">NoSQL</span> databases </h1>
+		<img src="http://rickosborne.org/blog/wp-content/uploads/2010/02/which-db-mysql-couch-mongo.png">
+		</section>
+
+	<SECTION>
+
+	<ul>
+		<h1><span class="accent">SQL</span></h1>
+		<li>Standard SQL databases are what everyone has used for the last 40 years.  These are standard relational database management systems.   </li>
+		
+		<li>The most common well known SQL databases are Oracle, MySQL, and SQL Server.  </li>
+
+		<h2>Pros and Cons</h2>
+		<li>The advantages of SQL databases are that they can map most data, even XML and complex objects.  Complex objects can be mapped to multiple rows divided up through normalization into multiple tables and subsequently retrieved using a View that implements the proper joins.  Code libraries aid in the development of client code, and are not that difficult to use.</li>
+
+		<li>The disadvantage of SQL databases is that joins n relational databases can slow the system down to a crawl, especially when millions of users are doing lookups against tables with millions of rows of data.  Relational data does not map well to typical programming structures that often consist of complex data types or hierarchical data. Data such as XML is especially difficult because of its hierarchical nature. Complex objects that contain objects and lists inside of them do not always map directly to a single row in a single table.</li>
+
+		<h1><span class="accent">NoSQL</span></h1>
+		<li>NoSQL databases came about when Google and Amazon decided that the joins of relational databases can really slow down a system when lots of users are doing lookups.  </li>
+
+		<li>The most common well known NoSQL databases are MongoDB, CouchDB, and BigTable.  </li>
+
+		<h1><span class="accent">NoSQL Vs. SQL</span></h1>
+		<li>The reality is that both of these systems do scale well enough for most applications.  Most systems are not going to be as big as Google so that comparison is not always valid.</li>
+		<li>Personally I would like to work with both.  I think the key is how well does Ruby interact with each of the different database types and that ulitmately would be a major factor in my decision.    </li>
+
+		
+
+
+	</SECTION>
+</body>
+
+</html>
